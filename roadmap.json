@@ -1,6 +1,6 @@
 {
   "updated": "2026-08-26",
-  "updated_at": "8/26 01:10",
+  "updated_at": "8/26 01:40",
   "note": "スクーミー宇宙プロジェクト ロードマップ。実績と計画を分けて記載する。status は 実績／進行中／計画／未着手 のいずれか。評価や優先順位の判断は入れない。",
   "missions": [
     {
@@ -60,6 +60,11 @@
       "id": "agri",
       "name": "スペースアグリ",
       "desc": "水耕栽培・宇宙食"
+    },
+    {
+      "id": "global",
+      "name": "海外",
+      "desc": "国際交流・海外展開"
     }
   ],
   "phases": [
@@ -478,6 +483,26 @@
       "status": "計画",
       "title": "スマート栽培カリキュラムの教材化",
       "detail": "宇宙食・スペースアグリの文脈でまとめる",
+      "cost": "未定"
+    },
+    {
+      "date": "2026-08-22",
+      "phase": "p1",
+      "mission": "m-transport",
+      "track": "tech",
+      "status": "実績",
+      "title": "makedoでロケットを製作・計測",
+      "detail": "山梨大学附属中学校の生徒がダンボールとmakedoで製作。飛行中の加速度・回転・音を記録（note n8eebdaff6929）",
+      "cost": ""
+    },
+    {
+      "date": "2027-06-01",
+      "phase": "p4",
+      "mission": "m-transport",
+      "track": "global",
+      "status": "未着手",
+      "title": "makedo オーストラリアでのロケット打ち上げ",
+      "detail": "makedoはオーストラリアの会社。現地でmakedoを使って作ったロケットを飛ばす構想。窓口・場所・時期は未定",
       "cost": "未定"
     }
   ],
